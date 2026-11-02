@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Linha de Produção de Conteúdo com IA</title>
+  <meta name="description" content="Curso prático em missões: Grok, Prompt Cowboy, Claude e APIs trabalhando juntos para produzir conteúdo para Instagram, TikTok e YouTube Shorts.">
+  <meta name="theme-color" content="#1A1530">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Linha">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="preload" href="archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    /* Aplica o tema salvo antes de desenhar a página, para não piscar. */
+    try {
+      var tema = JSON.parse(localStorage.getItem('linha-producao:tema') || '"auto"');
+      if (tema === 'claro') document.documentElement.setAttribute('data-theme', 'light');
+      if (tema === 'escuro') document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div class="splash" role="status"><span class="splash-marca" aria-hidden="true"></span>Carregando o curso</div>
+  </div>
+  <noscript><p class="sem-js">Este curso precisa de JavaScript ativado no navegador.</p></noscript>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="curso.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

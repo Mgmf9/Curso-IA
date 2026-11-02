@@ -1,0 +1,16 @@
+{
+  "name": "Linha de Produção de Conteúdo com IA",
+  "short_name": "Linha",
+  "description": "Curso prático em missões: Grok, Prompt Cowboy, Claude e APIs para produzir conteúdo para Instagram, TikTok e YouTube Shorts.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F4F9",
+  "theme_color": "#1A1530",
+  "icons": [
+    { "src": "logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any" }
+  ]
+}
